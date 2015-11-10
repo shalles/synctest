@@ -1,0 +1,2 @@
+# synctest
+sync device operation
