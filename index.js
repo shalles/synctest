@@ -6,7 +6,7 @@
 
 var plugin = {},
     path = require('path'),
-    utils = require('../../../lib/utils'),
+    utils,
     acceptExtname,
     origin, protocol;
 
