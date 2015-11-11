@@ -3,6 +3,7 @@ body{
 }
 video{
     margin: auto;
+    width: 100%;
 }
 .demo-video{
     text-align: center;
