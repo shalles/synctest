@@ -6,7 +6,7 @@
 
 ### Contribute code
 
-作为[servermock](https://www.npmjs.com/package/servermock)插件使用,[详情参见servermock](https://www.npmjs.com/package/servermock)
+作为[servermock](https://github.com/shalles/servermock/blob/master/README.md)插件使用,[安装及使用详情参见servermock](https://www.npmjs.com/package/servermock)
 
 **主要实现原理**<br>
 
@@ -130,4 +130,17 @@ plugin.excute = function (parmas){
 
 ```js
 var wsServer = 'ws://{{ origin }}'
+```
+
+**如lib中的 synctest_out.min.js**
+```js
+/**
+ * servermock synctest plugin 多平台同步测试：实现操作一个平台多个平台同步事件操作
+ * version 1.0.2
+ * @param  {[type]} synctest_origin server synctest监听的websocket源 默认"127.0.0.1:80"
+ */
+function synctest__(synctest_origin){
+//压缩后的synctest.js
+function(a){function h(a){... 
+}
 ```

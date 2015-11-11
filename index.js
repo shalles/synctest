@@ -13,8 +13,8 @@ var plugin = {},
 plugin.excute = function (parmas){
     
     if(utils.inArray(parmas.ext, acceptExtname)){
-        console.log('[synctest loading]');
-        var syncCommandTop = utils.readFile(path.join(__dirname, './lib/synccomm_top.min.js'));
+        utils.log(utils.chalk.green('[synctest loading]'));
+        var syncCommandTop = utils.readFile(path.join(__dirname, './lib/synctest.min.js'));
 
         syncCommandTop = utils.simpleTemplate(syncCommandTop, origin);
             // syncCommandBottom = utils.readFile(path.join(__dirname, './lib/synccomm_bottom.min.js'));
