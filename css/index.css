@@ -1,0 +1,13 @@
+body{
+
+}
+video{
+    margin: auto;
+}
+.demo-video{
+    text-align: center;
+}
+
+.video{
+    max-width: 600px;
+}
