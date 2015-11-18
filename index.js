@@ -15,7 +15,7 @@ plugin.excute = function (parmas){
     if(utils.inArray(parmas.ext, acceptExtname)){
         utils.log(utils.chalk.green('[synctest loading]'));
         var syncCommandTop = utils.readFile(path.join(__dirname, './lib/synctest.min.js'));
-
+        origin += '?appname=synctest';
         syncCommandTop = utils.simpleTemplate(syncCommandTop, origin);
             // syncCommandBottom = utils.readFile(path.join(__dirname, './lib/synccomm_bottom.min.js'));
         parmas.cnt = parmas.cnt.replace(/<head>/, '<head>\n<meta charset="UTF-8">\n<script>' + syncCommandTop + '</script>');
